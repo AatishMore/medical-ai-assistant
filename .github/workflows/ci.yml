@@ -19,7 +19,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Image
-      run: docker build -t yourusername/medical-ai .
+      run: docker build -t helloaatish/medical-ai .
 
     - name: Push Image
-      run: docker push yourusername/medical-ai
+      run: docker push helloaatish/medical-ai
